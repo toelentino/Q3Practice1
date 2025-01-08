@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Q3Practice1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+
+#quotetext{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+    </style>
+</head>
+<body>
+    <h1></h1>
+    <br>
+    <p id="goal_1"></p>
+
+    <div class="container-fluid" id="main">
+        <div class ="row">
+            <center>
+                <div class="col-md-4" id="div2"> 
+                    <img id="box" src="https://thumb.ac-illust.com/9d/9d41713518555a98a693df6e98d14229_t.jpeg" class="img-fluid">
+                    <div id="quotetext" class="col-md-3">
+                        <p id="quote1"></p>
+                        <p id="owner"></p>
+                    </div>
+                </div>
+                </center>
+            <div>
+        </div>
+    </div>
+    <script>
+        let quote1 = "After that song, he's the only one I want to be with for the rest of my life.";
+        let name = "- Tinnaphob Jirawatthanakul";
+
+        document.getElementById("quote1").innerHTML = quote1 + "<br>";
+        document.getElementById("owner").innerHTML = name ; 
+
+
+        /*
+        let goal1, goal2, goal3; 
+        goal1 = "To learn how to drive";
+        goal2 = "To get a driver's license"
+        goal3 = "To get my license revoked for speeding"
+
+        document.getElementById("goal_1").innerHTML = goal1;
+
+        document.write(goal2);
+
+        window.alert(goal3); 
+
+        /*
+        let a, b;
+        a = 5;
+        b = 6;
+
+        //document.getElementById("sample").innerHTML = a + b;
+
+        window.alert(a+b);
+        */
+
+    </script>
+</body>
+</html>
